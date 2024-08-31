@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .padding {
+    @apply px-10 sm:px-32;
+  }
+
+  .button {
+    @apply px-4 py-3 rounded-lg  mt-4 text-white font-semibold
+  }
+  .wrapping {
+    @apply flex flex-col sm:flex-row
+  }
+
+}
