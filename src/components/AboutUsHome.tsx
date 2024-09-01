@@ -39,7 +39,7 @@ const AboutUsHome = () => {
       <div className="wrapping pt-[50px] font-poppins padding">
         <div className="w-full sm:w-1/2">
           <div className="flex justify-center items-center">
-            <div className="absolute p-[180px] sm:p-[190px] rounded-full bg-orange-400 -z-30"></div>
+            <div className="absolute p-[148px] sm:p-[190px] rounded-full bg-orange-400 -z-30"></div>
             <img src="./img/about1.png" alt="About" ref={imgRef} />
           </div>
         </div>

@@ -47,7 +47,7 @@ const AboutPage = () => {
           <div className='flex flex-col w-[300px] gap-2' data-aos="zoom-in" 
         data-aos-duration="1500">
             <img src="./img/mamah-feb.jpg" alt="Mamah feb" className='rounded-full w-[300px]'/>
-            <p className='font-bold '>Mamah Febri</p>
+            <p className='font-bold '>Ibu Lina Erlina Wati</p>
             <p className='text-sm '>Pendiri dan Juru Masak Utama Duriat Food. Dengan pengalaman puluhan tahun di dunia kuliner, beliau selalu memastikan setiap hidangan dibuat dengan penuh cinta dan bahan-bahan terbaik.</p>
           </div>
           <div className='flex flex-col w-[300px] gap-2' data-aos="zoom-in" 

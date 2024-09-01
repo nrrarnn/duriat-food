@@ -37,7 +37,7 @@ const HeroSection = () => {
           <button className="button bg-orange-400 tr hover:bg-orange-600"><Link to={'/menu'}>Jelajahi Menu</Link></button>
         </div>
         <div className="w-full sm:w-1/2 mt-10 sm:mt-4">
-            <div className="absolute right-[105px] sm:right-[230px]  p-36 sm:px-[160px] sm:py-[180px] bg-orange-400 -z-30 rounded-tl-[40px] rounded-br-[40px]"></div>
+            <div className="absolute right-[90px] sm:right-[230px]  p-28 sm:px-[160px] sm:py-[180px] bg-orange-400 -z-30 rounded-tl-[40px] rounded-br-[40px]"></div>
             <img src="./img/img.png" alt="Nasi Tumpeng" ref={imgRef} />
         </div>
       </div>
