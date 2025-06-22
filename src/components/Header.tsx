@@ -31,7 +31,7 @@ const Header = () => {
     <>
       <header
         className={`fixed w-full transition-all duration-300 ${
-          isScrolled ? "backdrop-blur-md shadow-md bg-white/50" : "bg-transparent"
+          isScrolled ? "backdrop-blur-md shadow-lg shadow-slate-500/10 bg-white/40" : "bg-transparent"
         } z-[9999]`}
       >
         <div className="py-6 font-poppins flex items-center justify-between padding">
@@ -67,7 +67,7 @@ const Header = () => {
             {navigate.map((val) => (
               <li
                 key={val.id}
-                className={`rounded-full px-4 py-1 transition duration-300 ${
+                className={`rounded-full font-montserrat px-4 py-1 transition duration-300 ${
                   isActive(`/${val.nav}`)
                     ? "bg-orange-400 text-white"
                     : "hover:bg-orange-400 hover:text-white"

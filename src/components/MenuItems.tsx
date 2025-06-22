@@ -25,7 +25,7 @@ const menuItems: MenuItem[] = [
 const MenuItems = () => {
   return(
     <>
-      <div className="pt-20 pb-10 px-4 sm:px-32 font-poppins">
+      <div className="pt-20 pb-10 px-4 sm:px-32 font-montserrat">
         <h1 className="text-center text-4xl font-bold text-slate-700 mb-8">Menu Duriat Food</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {menuItems.map((menu) => (

@@ -36,7 +36,7 @@ const AboutUsHome = () => {
 
   return (
     <>
-      <div className="wrapping pt-[50px] font-poppins padding">
+      <div className="wrapping pt-[80px] font-montserrat padding">
         <div className="w-full sm:w-1/2">
           <div className="flex justify-center items-center">
             <div className="absolute p-[148px] sm:p-[190px] rounded-full bg-orange-400 -z-30"></div>
@@ -45,7 +45,7 @@ const AboutUsHome = () => {
         </div>
         <div className="w-full sm:w-1/2 flex flex-col justify-start gap-3 pt-24 sm:pt-2"    data-aos="fade-up" 
         data-aos-duration="1500" >
-          <p className="text-orange-400 font-semibold text-xl">
+          <p className="text-orange-400 font-semibold font-poppins text-xl">
             Tentang Kami
           </p>
           <p className="font-bold text-slate-800 text-3xl">

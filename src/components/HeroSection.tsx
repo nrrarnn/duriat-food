@@ -22,9 +22,9 @@ const HeroSection = () => {
     });
 
     gsap.to(imgRef.current, {
-       scale: 1.1, 
-        duration: 1.5,
-        ease: "power1.inOut"
+      scale: 1.1, 
+      duration: 1.5,
+      ease: "power1.inOut"
     });
   }
   }, []);
@@ -32,7 +32,7 @@ const HeroSection = () => {
     <>
       <div className="wrapping padding font-montserrat items-center pt-40 sm:pt-20 h-full" ref={containerRef} >
         <div className="w-full sm:w-1/2 lg:pt-20">
-          <h1 className=" font-extrabold text-5xl">Selamat Datang di <span className="text-orange-400" ref={textRef}></span></h1>
+          <h1 className=" font-extrabold text-5xl pb-2">Selamat Datang di <span className="text-orange-400" ref={textRef}></span></h1>
           <p className="text-slate-700">Duriat Food menghadirkan pilihan catering terbaik, mulai dari Tumpeng Nasi Kuning hingga Nasi Box. Sajikan kelezatan pada setiap momen penting Anda.</p>
           <button className="button bg-orange-400 tr hover:bg-orange-600"><Link to={'/menu'}>Jelajahi Menu</Link></button>
         </div>
